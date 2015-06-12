@@ -22,8 +22,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bundler', '>= 1.8.4'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
+  gem 'rails-assets-font-awesome'
 end
 
 # Use ActiveModel has_secure_password

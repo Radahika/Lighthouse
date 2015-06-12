@@ -91,6 +91,7 @@ GEM
       sprockets-rails
     rails-assets-bootstrap (3.3.4)
       rails-assets-jquery (>= 1.9.1)
+    rails-assets-font-awesome (4.3.0)
     rails-assets-jquery (2.1.4)
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
@@ -151,6 +152,7 @@ DEPENDENCIES
   jquery-rails
   rails (= 4.2.0)
   rails-assets-bootstrap!
+  rails-assets-font-awesome!
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
