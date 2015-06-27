@@ -28,6 +28,11 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-font-awesome'
 end
 
+# Linear Algebra
+# brew install imagemagick
+gem 'rmagick', '~> 2.15.2'
+gem 'sciruby'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
