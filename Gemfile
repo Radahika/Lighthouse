@@ -23,6 +23,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bundler', '>= 1.8.4'
 
+gem 'haml'
+gem 'haml-rails'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
   gem 'rails-assets-font-awesome'
