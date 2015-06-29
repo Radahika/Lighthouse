@@ -1,18 +1,35 @@
-%div.about-us
+%div.fold.about-us
   %div.container
-    %h1.white-text.centered.capitalized-header About Us
-    %p.white-text.centered Lighthouse is building the world's premier site for movie watchers and movie recommendations.
+    %h1.white-text.capitalized-header About Us
+    %p.white-text We're building the world's premier site for movie watchers and movie recommendations.
 
-%div.founders
+%div.fold.founders
   %div.container
     %div.row
       %div.col-sm-12
         %h1 The Founders
     %div.row
       %div.col-md-6
-        %img.img-responsive.content-img{ src: image_path("kevin.jpg") }
-        %h2 Kevin Hwang
+        %a{ href: "http://www.kevinhwang.net" }
+          %img.img-responsive.content-img{ src: image_path("kevin.jpg") }
+          %h2 Kevin Hwang
       %div.col-md-6
-        %img.img-responsive.content-img{ src: image_path("radhika.jpg") }
-        %h2 Radhika Marvin
+        %a{ href: "http://radahika.github.io/" }
+          %img.img-responsive.content-img{ src: image_path("radhika.jpg") }
+          %h2 Radhika Marvin
 
+%div.fold.contact.white-text
+  %div.container
+    %div.row
+      %div.col-sm-12
+        %h1 Contact Us
+
+%div.fold.contact-logos
+  %div.container
+    %div.row
+      %div.col-md-4
+        %i{ class: "fa fa-facebook fa-5x" }
+      %div.col-md-4
+        %i{ class: "fa fa-twitter fa-5x" }
+      %div.col-md-4
+        %i{ class: "fa fa-envelope-o fa-5x" }
