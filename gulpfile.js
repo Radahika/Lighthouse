@@ -77,7 +77,7 @@ gulp.task("styles", function () {
   return gulp.src("app/stylesheets/main.scss")
   .pipe(sass().on("error", sass.logError))
   .pipe(autoprefixer())
-  .pipe(gulp.dest("public.css"));
+  .pipe(gulp.dest("public/css"));
 });
 
 gulp.task("watch", function () {
