@@ -1,11 +1,12 @@
 {
   "name": "lighthouse",
   "version": "1.0.0",
-  "description": "",
+  "description": "A movie recommendation website",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "babel-node server.js",
+    "watch": "nodemon --exec babel-node -- server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Radahika/Lighthouse/issues"
   },
-  "homepage": "https://github.com/Radahika/Lighthouse#readme"
+  "homepage": "https://github.com/Radahika/Lighthouse#readme",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "express": "^4.13.3"
+  }
 }
