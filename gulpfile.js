@@ -55,7 +55,7 @@ gulp.task("browserify-watch", ["browserify-vendor"], function () {
   var bundler = watchify(browserify("app/main.js", watchify.args));
   bundler.external(dependencies);
   bundler.transform(babelify);
-  bundle.on("update", rebundle);
+  bundler.on("update", rebundle);
   return rebundle();
 
   function rebundle () {
