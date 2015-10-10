@@ -35,7 +35,7 @@ gulp.task("browserify-vendor", function () {
   .require(dependencies)
   .bundle()
   .pipe(source("vendor.bundle.js"))
-  .pipe(gulp.dest("public.js"));
+  .pipe(gulp.dest("public/js"));
 });
 
 // Compile only project files, excluding third-party dependencies.
